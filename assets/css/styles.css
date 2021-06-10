@@ -1797,12 +1797,15 @@ pre code {
   }
   .col-sm-10 {
     width: 83.33333333%;
+    /* text-align: center; */
+    font-size: 18px;
   }
   .col-sm-9 {
     width: 75%;
   }
   .col-sm-8 {
     width: 66.66666667%;
+    /* font-size: 18px; */
   }
   .col-sm-7 {
     width: 58.33333333%;
@@ -6481,6 +6484,14 @@ button.close {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.center-block-big {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
 .pull-right {
   float: right !important;
@@ -7319,6 +7330,7 @@ Last change:	04/21/2017
   position: fixed;
   bottom: 20px;
   right: 20px;
+  /* left: 20px; */
   z-index: 1000000;
   display: none;
   -webkit-transition: none !important;
@@ -7368,7 +7380,16 @@ Last change:	04/21/2017
   color: rgb(220, 6, 6);
   font-size: 38px;
   text-align: center;
-  padding: 0 5%;
+  padding: 0 1%;
+  /* margin-bottom: 80px; */
+  
+}
+.section_caption_big {
+  font-family: 'Oregano', cursive;
+  color: rgb(220, 6, 6);
+  font-size: 42px;
+  text-align: center;
+  /* padding: 0 5%; */
   /* margin-bottom: 80px; */
   
 }
@@ -7649,7 +7670,8 @@ Last change:	04/21/2017
   right: 0;
   bottom: 0;
   left: 0;
-  background: #000000 url(../img/welcome-parallax_bg.jpg) no-repeat center center / cover;
+  /* background: #000000 url(../img/welcome-parallax_bg.jpg) no-repeat center center / cover; */
+  background: #000000 url(../img/cp/girl_pushup_right.jpg) no-repeat right center / cover;
   z-index: -999;
 }
 .section_welcome .welcome-text-menu_bg {

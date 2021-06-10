@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*!
+  Ionicons, v2.0.0
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+
+  Android-style icons originally built by Google’s
+  Material Design Icons: https://github.com/google/material-design-icons
+  used under CC BY http://creativecommons.org/licenses/by/4.0/
+  Modified icons to fit ionicon’s grid from original.
+*/
+@font-face { font-family: "Ionicons"; src: url("../fonts/ionicons.eot?v=2.0.0"); src: url("../fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("../fonts/ionicons.woff?v=2.0.0") format("woff"), url("../fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg"); font-weight: normal; font-style: normal; }
+.ion, .ionicons, .ion-ios-minus-empty:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-android-bicycle:before, .ion-android-walk:before, .ion-heart:before, .ion-heart-broken:before , .ion-checkmark:before, .ion-ios-email-outline:before,.ion-social-facebook-outline:before,.ion-social-twitter-outline:before { display: inline-block; font-family: "Ionicons"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.ion-ios-minus-empty:before { content: "\f462"; }
+
+.ion-social-usd:before { content: "\f353"; }
+
+.ion-social-usd-outline:before { content: "\f352"; }
+
+.ion-android-bicycle:before { content: "\f369"; }
+
+.ion-android-walk:before { content: "\f3bb"; }
+
+.ion-heart:before { content: "\f141"; }
+
+.ion-heart-broken:before { content: "\f31d"; }
+
+.ion-checkmark:before { content: "\f122"; }
+
+.ion-ios-email-outline:before { content: "\f422"; }
+
+.ion-social-facebook-outline:before { content: "\f230"; }
+
+.ion-social-twitter-outline:before { content: "\f242"; }
+
+
